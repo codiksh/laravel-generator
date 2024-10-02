@@ -1,9 +1,9 @@
 <?php
 
-namespace InfyOm\Generator\Commands\Common;
+namespace Codiksh\Generator\Commands\Common;
 
-use InfyOm\Generator\Commands\BaseCommand;
-use InfyOm\Generator\Generators\MigrationGenerator;
+use Codiksh\Generator\Commands\BaseCommand;
+use Codiksh\Generator\Generators\MigrationGenerator;
 
 class MigrationGeneratorCommand extends BaseCommand
 {
@@ -12,7 +12,7 @@ class MigrationGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'infyom:migration';
+    protected $name = 'codiksh:migration';
 
     /**
      * The console command description.

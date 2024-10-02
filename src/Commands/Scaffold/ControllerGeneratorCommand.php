@@ -1,9 +1,9 @@
 <?php
 
-namespace InfyOm\Generator\Commands\Scaffold;
+namespace Codiksh\Generator\Commands\Scaffold;
 
-use InfyOm\Generator\Commands\BaseCommand;
-use InfyOm\Generator\Generators\Scaffold\ControllerGenerator;
+use Codiksh\Generator\Commands\BaseCommand;
+use Codiksh\Generator\Generators\Scaffold\ControllerGenerator;
 
 class ControllerGeneratorCommand extends BaseCommand
 {
@@ -12,7 +12,7 @@ class ControllerGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'infyom.scaffold:controller';
+    protected $name = 'codiksh.scaffold:controller';
 
     /**
      * The console command description.

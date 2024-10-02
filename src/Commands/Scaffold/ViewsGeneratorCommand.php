@@ -1,9 +1,9 @@
 <?php
 
-namespace InfyOm\Generator\Commands\Scaffold;
+namespace Codiksh\Generator\Commands\Scaffold;
 
-use InfyOm\Generator\Commands\BaseCommand;
-use InfyOm\Generator\Generators\Scaffold\ViewGenerator;
+use Codiksh\Generator\Commands\BaseCommand;
+use Codiksh\Generator\Generators\Scaffold\ViewGenerator;
 
 class ViewsGeneratorCommand extends BaseCommand
 {
@@ -12,7 +12,7 @@ class ViewsGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'infyom.scaffold:views';
+    protected $name = 'codiksh.scaffold:views';
 
     /**
      * The console command description.

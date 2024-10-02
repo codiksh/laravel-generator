@@ -1,6 +1,6 @@
 <?php
 
-namespace InfyOm\Generator\Commands\Publish;
+namespace Codiksh\Generator\Commands\Publish;
 
 use Symfony\Component\Console\Input\InputOption;
 
@@ -11,7 +11,7 @@ class GeneratorPublishCommand extends PublishBaseCommand
      *
      * @var string
      */
-    protected $name = 'infyom:publish';
+    protected $name = 'codiksh:publish';
 
     /**
      * The console command description.
@@ -22,7 +22,7 @@ class GeneratorPublishCommand extends PublishBaseCommand
 
     public function handle()
     {
-        $this->updateRouteServiceProvider();
+        // $this->updateRouteServiceProvider();
         $this->publishTestCases();
         $this->publishBaseController();
         $repositoryPattern = config('laravel_generator.options.repository_pattern', true);
@@ -34,25 +34,25 @@ class GeneratorPublishCommand extends PublishBaseCommand
         }
     }
 
-    private function updateRouteServiceProvider()
-    {
-        $routeServiceProviderPath = app_path('Providers'.DIRECTORY_SEPARATOR.'RouteServiceProvider.php');
+    // private function updateRouteServiceProvider()
+    // {
+    //     $routeServiceProviderPath = app_path('Providers'.DIRECTORY_SEPARATOR.'RouteServiceProvider.php');
 
-        if (!file_exists($routeServiceProviderPath)) {
-            $this->error("Route Service provider not found on $routeServiceProviderPath");
+    //     if (!file_exists($routeServiceProviderPath)) {
+    //         $this->error("Route Service provider not found on $routeServiceProviderPath");
 
-            return;
-        }
+    //         return;
+    //     }
 
-        $fileContent = g_filesystem()->getFile($routeServiceProviderPath);
+    //     $fileContent = g_filesystem()->getFile($routeServiceProviderPath);
 
-        $search = "Route::middleware('api')".infy_nl().str(' ')->repeat(16)."->prefix('api')";
-        $beforeContent = str($fileContent)->before($search);
-        $afterContent = str($fileContent)->after($search);
+    //     $search = "Route::middleware('api')".infy_nl().str(' ')->repeat(16)."->prefix('api')";
+    //     $beforeContent = str($fileContent)->before($search);
+    //     $afterContent = str($fileContent)->after($search);
 
-        $finalContent = $beforeContent.$search.infy_nl().str(' ')->repeat(16)."->as('api.')".$afterContent;
-        g_filesystem()->createFile($routeServiceProviderPath, $finalContent);
-    }
+    //     $finalContent = $beforeContent.$search.infy_nl().str(' ')->repeat(16)."->as('api.')".$afterContent;
+    //     g_filesystem()->createFile($routeServiceProviderPath, $finalContent);
+    // }
 
     private function publishTestCases()
     {

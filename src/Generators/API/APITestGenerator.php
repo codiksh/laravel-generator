@@ -1,8 +1,8 @@
 <?php
 
-namespace InfyOm\Generator\Generators\API;
+namespace Codiksh\Generator\Generators\API;
 
-use InfyOm\Generator\Generators\BaseGenerator;
+use Codiksh\Generator\Generators\BaseGenerator;
 
 class APITestGenerator extends BaseGenerator
 {

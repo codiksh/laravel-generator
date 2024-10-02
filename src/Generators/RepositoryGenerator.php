@@ -1,6 +1,6 @@
 <?php
 
-namespace InfyOm\Generator\Generators;
+namespace Codiksh\Generator\Generators;
 
 class RepositoryGenerator extends BaseGenerator
 {

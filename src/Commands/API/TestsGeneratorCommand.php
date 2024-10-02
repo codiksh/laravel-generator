@@ -1,10 +1,10 @@
 <?php
 
-namespace InfyOm\Generator\Commands\API;
+namespace Codiksh\Generator\Commands\API;
 
-use InfyOm\Generator\Commands\BaseCommand;
-use InfyOm\Generator\Generators\API\APITestGenerator;
-use InfyOm\Generator\Generators\RepositoryTestGenerator;
+use Codiksh\Generator\Commands\BaseCommand;
+use Codiksh\Generator\Generators\API\APITestGenerator;
+use Codiksh\Generator\Generators\RepositoryTestGenerator;
 
 class TestsGeneratorCommand extends BaseCommand
 {
@@ -13,7 +13,7 @@ class TestsGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'infyom.api:tests';
+    protected $name = 'codiksh.api:tests';
 
     /**
      * The console command description.

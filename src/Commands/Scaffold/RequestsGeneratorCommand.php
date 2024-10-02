@@ -1,9 +1,9 @@
 <?php
 
-namespace InfyOm\Generator\Commands\Scaffold;
+namespace Codiksh\Generator\Commands\Scaffold;
 
-use InfyOm\Generator\Commands\BaseCommand;
-use InfyOm\Generator\Generators\Scaffold\RequestGenerator;
+use Codiksh\Generator\Commands\BaseCommand;
+use Codiksh\Generator\Generators\Scaffold\RequestGenerator;
 
 class RequestsGeneratorCommand extends BaseCommand
 {
@@ -12,7 +12,7 @@ class RequestsGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'infyom.scaffold:requests';
+    protected $name = 'codiksh.scaffold:requests';
 
     /**
      * The console command description.

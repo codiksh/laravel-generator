@@ -1,9 +1,9 @@
 <?php
 
-namespace InfyOm\Generator\Generators\Scaffold;
+namespace Codiksh\Generator\Generators\Scaffold;
 
 use Exception;
-use InfyOm\Generator\Generators\BaseGenerator;
+use Codiksh\Generator\Generators\BaseGenerator;
 
 class ControllerGenerator extends BaseGenerator
 {

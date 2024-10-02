@@ -1,6 +1,6 @@
 <?php
 
-namespace InfyOm\Generator\Utils;
+namespace Codiksh\Generator\Utils;
 
 class SchemaUtil
 {

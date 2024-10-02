@@ -1,6 +1,6 @@
 <?php
 
-namespace InfyOm\Generator\Commands\Publish;
+namespace Codiksh\Generator\Commands\Publish;
 
 use Exception;
 use Illuminate\View\Factory;
@@ -13,7 +13,7 @@ class PublishTablesCommand extends PublishBaseCommand
      *
      * @var string
      */
-    protected $name = 'infyom.publish:tables';
+    protected $name = 'codiksh.publish:tables';
 
     /**
      * The console command description.

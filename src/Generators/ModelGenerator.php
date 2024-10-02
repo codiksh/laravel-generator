@@ -1,9 +1,9 @@
 <?php
 
-namespace InfyOm\Generator\Generators;
+namespace Codiksh\Generator\Generators;
 
 use Illuminate\Support\Str;
-use InfyOm\Generator\Utils\TableFieldsGenerator;
+use Codiksh\Generator\Utils\TableFieldsGenerator;
 
 class ModelGenerator extends BaseGenerator
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace InfyOm\Generator\Generators\API;
+namespace Codiksh\Generator\Generators\API;
 
 use Illuminate\Support\Str;
-use InfyOm\Generator\Generators\BaseGenerator;
+use Codiksh\Generator\Generators\BaseGenerator;
 
 class APIControllerGenerator extends BaseGenerator
 {
