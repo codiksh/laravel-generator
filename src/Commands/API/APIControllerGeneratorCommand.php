@@ -1,9 +1,9 @@
 <?php
 
-namespace InfyOm\Generator\Commands\API;
+namespace Codiksh\Generator\Commands\API;
 
-use InfyOm\Generator\Commands\BaseCommand;
-use InfyOm\Generator\Generators\API\APIControllerGenerator;
+use Codiksh\Generator\Commands\BaseCommand;
+use Codiksh\Generator\Generators\API\APIControllerGenerator;
 
 class APIControllerGeneratorCommand extends BaseCommand
 {
@@ -12,7 +12,7 @@ class APIControllerGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'infyom.api:controller';
+    protected $name = 'codiksh.api:controller';
 
     /**
      * The console command description.

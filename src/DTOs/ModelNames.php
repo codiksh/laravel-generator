@@ -1,6 +1,6 @@
 <?php
 
-namespace InfyOm\Generator\DTOs;
+namespace Codiksh\Generator\DTOs;
 
 class ModelNames
 {

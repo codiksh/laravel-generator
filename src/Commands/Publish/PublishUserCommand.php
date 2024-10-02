@@ -1,6 +1,6 @@
 <?php
 
-namespace InfyOm\Generator\Commands\Publish;
+namespace Codiksh\Generator\Commands\Publish;
 
 class PublishUserCommand extends PublishBaseCommand
 {
@@ -9,7 +9,7 @@ class PublishUserCommand extends PublishBaseCommand
      *
      * @var string
      */
-    protected $name = 'infyom.publish:user';
+    protected $name = 'codiksh.publish:user';
 
     /**
      * The console command description.

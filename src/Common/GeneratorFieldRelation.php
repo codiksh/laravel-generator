@@ -1,6 +1,6 @@
 <?php
 
-namespace InfyOm\Generator\Common;
+namespace Codiksh\Generator\Common;
 
 use Illuminate\Support\Str;
 

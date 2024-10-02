@@ -1,8 +1,8 @@
 <?php
 
-namespace InfyOm\Generator\Commands\API;
+namespace Codiksh\Generator\Commands\API;
 
-use InfyOm\Generator\Commands\BaseCommand;
+use Codiksh\Generator\Commands\BaseCommand;
 
 class APIGeneratorCommand extends BaseCommand
 {
@@ -11,7 +11,7 @@ class APIGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'infyom:api';
+    protected $name = 'codiksh:api';
 
     /**
      * The console command description.

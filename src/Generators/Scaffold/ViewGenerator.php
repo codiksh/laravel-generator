@@ -1,12 +1,12 @@
 <?php
 
-namespace InfyOm\Generator\Generators\Scaffold;
+namespace Codiksh\Generator\Generators\Scaffold;
 
 use Exception;
 use Illuminate\Support\Str;
-use InfyOm\Generator\Generators\BaseGenerator;
-use InfyOm\Generator\Generators\ViewServiceProviderGenerator;
-use InfyOm\Generator\Utils\HTMLFieldGenerator;
+use Codiksh\Generator\Generators\BaseGenerator;
+use Codiksh\Generator\Generators\ViewServiceProviderGenerator;
+use Codiksh\Generator\Utils\HTMLFieldGenerator;
 
 class ViewGenerator extends BaseGenerator
 {

@@ -1,6 +1,6 @@
 # InfyOm Generator Contribution Guide
 
-Thank you for considering contributing to the InfyOm Generator!
+Thank you for considering contributing to the Codiksh Generator!
 
 #### Coding Style
 As this package is related to laravel, we are follows the PSR-2 coding standard and the PSR-4 autoloading standard.

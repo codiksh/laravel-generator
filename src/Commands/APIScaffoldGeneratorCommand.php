@@ -1,6 +1,6 @@
 <?php
 
-namespace InfyOm\Generator\Commands;
+namespace Codiksh\Generator\Commands;
 
 class APIScaffoldGeneratorCommand extends BaseCommand
 {
@@ -9,7 +9,7 @@ class APIScaffoldGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'infyom:api_scaffold';
+    protected $name = 'codiksh:api_scaffold';
 
     /**
      * The console command description.

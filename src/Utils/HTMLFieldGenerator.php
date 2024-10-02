@@ -1,9 +1,9 @@
 <?php
 
-namespace InfyOm\Generator\Utils;
+namespace Codiksh\Generator\Utils;
 
 use Illuminate\Support\Str;
-use InfyOm\Generator\Common\GeneratorField;
+use Codiksh\Generator\Common\GeneratorField;
 
 class HTMLFieldGenerator
 {

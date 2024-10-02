@@ -1,45 +1,45 @@
 <?php
 
-namespace InfyOm\Generator;
+namespace Codiksh\Generator;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
-use InfyOm\Generator\Commands\API\APIControllerGeneratorCommand;
-use InfyOm\Generator\Commands\API\APIGeneratorCommand;
-use InfyOm\Generator\Commands\API\APIRequestsGeneratorCommand;
-use InfyOm\Generator\Commands\API\TestsGeneratorCommand;
-use InfyOm\Generator\Commands\APIScaffoldGeneratorCommand;
-use InfyOm\Generator\Commands\Common\MigrationGeneratorCommand;
-use InfyOm\Generator\Commands\Common\ModelGeneratorCommand;
-use InfyOm\Generator\Commands\Common\RepositoryGeneratorCommand;
-use InfyOm\Generator\Commands\Publish\GeneratorPublishCommand;
-use InfyOm\Generator\Commands\Publish\PublishTablesCommand;
-use InfyOm\Generator\Commands\Publish\PublishUserCommand;
-use InfyOm\Generator\Commands\RollbackGeneratorCommand;
-use InfyOm\Generator\Commands\Scaffold\ControllerGeneratorCommand;
-use InfyOm\Generator\Commands\Scaffold\RequestsGeneratorCommand;
-use InfyOm\Generator\Commands\Scaffold\ScaffoldGeneratorCommand;
-use InfyOm\Generator\Commands\Scaffold\ViewsGeneratorCommand;
-use InfyOm\Generator\Common\FileSystem;
-use InfyOm\Generator\Common\GeneratorConfig;
-use InfyOm\Generator\Generators\API\APIControllerGenerator;
-use InfyOm\Generator\Generators\API\APIRequestGenerator;
-use InfyOm\Generator\Generators\API\APIRoutesGenerator;
-use InfyOm\Generator\Generators\API\APITestGenerator;
-use InfyOm\Generator\Generators\FactoryGenerator;
-use InfyOm\Generator\Generators\MigrationGenerator;
-use InfyOm\Generator\Generators\ModelGenerator;
-use InfyOm\Generator\Generators\RepositoryGenerator;
-use InfyOm\Generator\Generators\RepositoryTestGenerator;
-use InfyOm\Generator\Generators\Scaffold\ControllerGenerator;
-use InfyOm\Generator\Generators\Scaffold\MenuGenerator;
-use InfyOm\Generator\Generators\Scaffold\RequestGenerator;
-use InfyOm\Generator\Generators\Scaffold\RoutesGenerator;
-use InfyOm\Generator\Generators\Scaffold\ViewGenerator;
-use InfyOm\Generator\Generators\SeederGenerator;
+use Codiksh\Generator\Commands\API\APIControllerGeneratorCommand;
+use Codiksh\Generator\Commands\API\APIGeneratorCommand;
+use Codiksh\Generator\Commands\API\APIRequestsGeneratorCommand;
+use Codiksh\Generator\Commands\API\TestsGeneratorCommand;
+use Codiksh\Generator\Commands\APIScaffoldGeneratorCommand;
+use Codiksh\Generator\Commands\Common\MigrationGeneratorCommand;
+use Codiksh\Generator\Commands\Common\ModelGeneratorCommand;
+use Codiksh\Generator\Commands\Common\RepositoryGeneratorCommand;
+use Codiksh\Generator\Commands\Publish\GeneratorPublishCommand;
+use Codiksh\Generator\Commands\Publish\PublishTablesCommand;
+use Codiksh\Generator\Commands\Publish\PublishUserCommand;
+use Codiksh\Generator\Commands\RollbackGeneratorCommand;
+use Codiksh\Generator\Commands\Scaffold\ControllerGeneratorCommand;
+use Codiksh\Generator\Commands\Scaffold\RequestsGeneratorCommand;
+use Codiksh\Generator\Commands\Scaffold\ScaffoldGeneratorCommand;
+use Codiksh\Generator\Commands\Scaffold\ViewsGeneratorCommand;
+use Codiksh\Generator\Common\FileSystem;
+use Codiksh\Generator\Common\GeneratorConfig;
+use Codiksh\Generator\Generators\API\APIControllerGenerator;
+use Codiksh\Generator\Generators\API\APIRequestGenerator;
+use Codiksh\Generator\Generators\API\APIRoutesGenerator;
+use Codiksh\Generator\Generators\API\APITestGenerator;
+use Codiksh\Generator\Generators\FactoryGenerator;
+use Codiksh\Generator\Generators\MigrationGenerator;
+use Codiksh\Generator\Generators\ModelGenerator;
+use Codiksh\Generator\Generators\RepositoryGenerator;
+use Codiksh\Generator\Generators\RepositoryTestGenerator;
+use Codiksh\Generator\Generators\Scaffold\ControllerGenerator;
+use Codiksh\Generator\Generators\Scaffold\MenuGenerator;
+use Codiksh\Generator\Generators\Scaffold\RequestGenerator;
+use Codiksh\Generator\Generators\Scaffold\RoutesGenerator;
+use Codiksh\Generator\Generators\Scaffold\ViewGenerator;
+use Codiksh\Generator\Generators\SeederGenerator;
 
-class InfyOmGeneratorServiceProvider extends ServiceProvider
+class CodikshGeneratorServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

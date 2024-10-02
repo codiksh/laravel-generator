@@ -1,9 +1,9 @@
 <?php
 
-namespace InfyOm\Generator\Generators\API;
+namespace Codiksh\Generator\Generators\API;
 
-use InfyOm\Generator\Generators\BaseGenerator;
-use InfyOm\Generator\Generators\ModelGenerator;
+use Codiksh\Generator\Generators\BaseGenerator;
+use Codiksh\Generator\Generators\ModelGenerator;
 
 class APIRequestGenerator extends BaseGenerator
 {

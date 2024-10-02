@@ -1,11 +1,11 @@
 <?php
 
-namespace InfyOm\Generator\Request;
+namespace Codiksh\Generator\Request;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Http\Response;
 use Illuminate\Support\Arr;
-use InfyOm\Generator\Utils\ResponseUtil;
+use Codiksh\Generator\Utils\ResponseUtil;
 
 class APIRequest extends FormRequest
 {

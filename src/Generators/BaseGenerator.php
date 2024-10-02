@@ -1,8 +1,8 @@
 <?php
 
-namespace InfyOm\Generator\Generators;
+namespace Codiksh\Generator\Generators;
 
-use InfyOm\Generator\Common\GeneratorConfig;
+use Codiksh\Generator\Common\GeneratorConfig;
 
 abstract class BaseGenerator
 {

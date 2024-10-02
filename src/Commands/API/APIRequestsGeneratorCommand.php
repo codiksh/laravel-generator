@@ -1,9 +1,9 @@
 <?php
 
-namespace InfyOm\Generator\Commands\API;
+namespace Codiksh\Generator\Commands\API;
 
-use InfyOm\Generator\Commands\BaseCommand;
-use InfyOm\Generator\Generators\API\APIRequestGenerator;
+use Codiksh\Generator\Commands\BaseCommand;
+use Codiksh\Generator\Generators\API\APIRequestGenerator;
 
 class APIRequestsGeneratorCommand extends BaseCommand
 {
@@ -12,7 +12,7 @@ class APIRequestsGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'infyom.api:requests';
+    protected $name = 'codiksh.api:requests';
 
     /**
      * The console command description.

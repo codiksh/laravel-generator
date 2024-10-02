@@ -1,9 +1,9 @@
 <?php
 
-namespace InfyOm\Generator\Commands\Common;
+namespace Codiksh\Generator\Commands\Common;
 
-use InfyOm\Generator\Commands\BaseCommand;
-use InfyOm\Generator\Generators\ModelGenerator;
+use Codiksh\Generator\Commands\BaseCommand;
+use Codiksh\Generator\Generators\ModelGenerator;
 
 class ModelGeneratorCommand extends BaseCommand
 {
@@ -12,7 +12,7 @@ class ModelGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'infyom:model';
+    protected $name = 'codiksh:model';
 
     /**
      * The console command description.
